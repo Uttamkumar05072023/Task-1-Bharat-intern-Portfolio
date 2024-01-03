@@ -1,0 +1,56 @@
+@media screen and (max-width:600px) {
+    header {
+        height: 20vw;
+    }
+
+    header nav ul {
+        font-size: 4vw;
+    }
+
+    #page1 .left .box {
+        overflow: scroll;
+    }
+
+    #page1 .left .box,#page2 .left {
+        font-size: 5.5vw;
+    }
+
+    #page1 .left .box button {
+        margin: 60% 0 0 4.5%;
+        width: 90%;
+        height: 6%;
+    }
+
+    #page2 .right {
+        font-size: 2.5vw;
+    }
+
+    #page3 .text-size-1 h1 {
+        font-size: 7vw;
+    }
+
+    #page3 #project h1 {
+        margin: 2vh 0;
+    }
+
+    .project1,
+    .project2,
+    .project3 {
+        height: 70vh;
+    }
+
+    #page3 #project {
+        margin: 0 3vw;
+    }
+}
+@media screen and (max-height:400px){
+    #page1 .left .box {
+        font-size: 2vw;
+    }
+    #page2{
+        overflow: scroll;
+    }
+    #page2 .right .boxleft .portions{
+        font-size: 10px;
+    }
+}

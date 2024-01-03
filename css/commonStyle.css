@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Noto+Sans:wght@500&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.flex-all-center-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-all-center-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project1,.project2,.project3{
+    flex-basis: 33.3%;
+    height: 90vh;
+}
